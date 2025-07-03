@@ -1,0 +1,50 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/* Left Side styling */
+.left-img-container {
+    width: 35%;
+    height: 100vh;
+    position: relative;
+}
+
+/* this ensures that the takes up the whole .left-img-container 
+    and resizes accordingly to it */
+.left-img-container .side-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left-img-container .logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.left-img-container .img-credit {
+    position: absolute;
+    bottom: 10px;
+    /* font-size: 25px; */
+    left: calc(100% - 410px);
+    font-size: 0.8rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    /* Optional for readability */
+    padding: 4px 8px;
+    border-radius: 4px;
+}
