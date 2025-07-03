@@ -30,10 +30,26 @@
     object-fit: cover;
 }
 
+/* Styling Logo */
 .left-img-container .logo-container {
     position: absolute;
     top: 20px;
-    left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: oklch(59.987% 0.00007 271.152 / 0.509);
+    width: 100%;
+}
+
+.logo-container img {
+    /* height: 50%; */
+    width: 12%;
+}
+
+.logo-container .logo-text {
+    font-size: 4.8rem;
 }
 
 .left-img-container .img-credit {
