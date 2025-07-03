@@ -11,6 +11,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/norse-bold/norse-bold-webfont.woff);
+}
+
+:root {
+    --logo-font-clr: whitesmoke;
+    --logo-font-family: norse-bold;
+}
+
 .container {
     display: flex;
 }
@@ -38,18 +48,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.4rem;
 
-    background: oklch(59.987% 0.00007 271.152 / 0.509);
+
+    background: oklch(59.987% 0.00007 271.152 / 0);
+    height: 14%;
     width: 100%;
 }
 
 .logo-container img {
     /* height: 50%; */
-    width: 12%;
+    width: 11%;
 }
 
 .logo-container .logo-text {
     font-size: 4.8rem;
+    font-family: var(--logo-font-family);
+    letter-spacing: 0.8rem;
 }
 
 .left-img-container .img-credit {
