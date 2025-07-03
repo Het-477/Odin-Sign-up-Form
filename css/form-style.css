@@ -1,0 +1,31 @@
+.info-container {
+    border: 2px solid black;
+    font-size: 1.5rem;
+    padding: var(--para-font-family);
+}
+
+form label {
+    font-family: 'roboto';
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.180rem;
+    font-weight: 500;
+
+    margin-bottom: 2px;
+}
+
+form input {
+    font-size: 1.5rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 8rem;
+}
+
+.form-row>div {
+    display: flex;
+    flex-direction: column;
+    /* font-size: 1.5rem; */
+    margin-bottom: 1.8rem;
+}
