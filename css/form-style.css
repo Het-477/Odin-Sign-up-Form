@@ -4,7 +4,7 @@
     font-weight: 500;
     font-family: var(--para-font-family);
     padding: 5.5rem 32px 2.5rem 32px;
-    background: hsl(0, 0%, 98%);
+    background: var(--info-bg-color);
 }
 
 

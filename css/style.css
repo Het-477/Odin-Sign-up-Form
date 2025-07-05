@@ -22,6 +22,7 @@
     --logo-font-clr: whitesmoke;
     --logo-font-family: 'norse-bold';
     --para-font-family: 'roboto';
+    --info-bg-color: oklch(97.511% 0.00011 271.152);
     --btn-clr: oklch(77.32% 0.05927 139.663);
     --btn-clr-2: oklch(63.939% 0.08500 319.746);
 }
