@@ -8,6 +8,7 @@
 }
 
 
+/* All styling related to form  */
 .form-container h1 {
     font-family: var(--para-font-family);
     font-size: 1.8rem;
@@ -15,7 +16,7 @@
 }
 
 .form-container {
-    padding: 1.2rem 1.8rem 1.8rem 1.8rem;
+    padding: 1.2rem 1.8rem 1rem 1.8rem;
 }
 
 form label {
