@@ -1,8 +1,12 @@
 .info-container {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-size: 1.5rem;
-    padding: var(--para-font-family);
+    font-weight: 500;
+    font-family: var(--para-font-family);
+    padding: 5.5rem 32px 2.5rem 32px;
+    background: hsl(0, 0%, 98%);
 }
+
 
 form label {
     font-family: 'roboto';
