@@ -1,4 +1,3 @@
-- add detailed from errors below inputs which also work as padding like this: 
-    - https://threadreaderapp.com/thread/1400388896136040454.html
-    - https://www.nngroup.com/articles/errors-forms-design-guidelines/
-
+- add detailed from errors below inputs which also work as padding like this:
+  - https://threadreaderapp.com/thread/1400388896136040454.html
+  - https://www.nngroup.com/articles/errors-forms-design-guidelines/
