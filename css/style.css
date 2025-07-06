@@ -11,7 +11,7 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
     font-family: norse-bold;
@@ -21,7 +21,8 @@
 :root {
     --logo-font-clr: whitesmoke;
     --logo-font-family: 'norse-bold';
-    --para-font-family: 'roboto';
+    --para-font-family: 'roboto', sans-serif;
+    --para-font-family-2: 'Mona Sans', sans-serif;
     --info-font-size: 1.5rem;
 
     --info-bg-color: oklch(97.511% 0.00011 271.152);
