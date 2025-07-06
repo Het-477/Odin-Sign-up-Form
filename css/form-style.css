@@ -1,22 +1,26 @@
 .info-container {
     /* border: 2px solid black; */
-    font-size: 1.5rem;
+    font-size: var(--info-font-size);
     font-weight: 500;
     font-family: var(--para-font-family);
-    padding: 5.5rem 32px 2.5rem 32px;
+    padding: 4.4rem 32px 1.2rem 32px;
     background: var(--info-bg-color);
 }
 
 
-/* All styling related to form  */
+/* All form related styling */
 .form-container h1 {
     font-family: var(--para-font-family);
     font-size: 1.8rem;
     padding-bottom: 1.2rem;
 }
 
-.form-container {
-    padding: 1.2rem 1.8rem 1rem 1.8rem;
+/* selects the the entire form section (heading included) */
+.form-container>div:first-of-type {
+    padding: var(--form-padding);
+    /* border: 2px solid black; */
+    /* border-bottom: 2px solid red; */
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.5);
 }
 
 form label {
@@ -45,4 +49,46 @@ form input {
     flex-direction: column;
     /* font-size: 1.5rem; */
     margin-bottom: 1.4rem;
+}
+
+/* All Button & Login section related styling (which is the 2nd direct child of .form-container)*/
+
+/* selects the Create account & login section */
+.form-container>div:nth-child(2) {
+    padding: var(--form-padding);
+}
+
+.create-login-acc-section {
+    /* padding: 0; */
+
+    font-family: var(--para-font-family);
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+}
+
+button {
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.4rem;
+    border-style: none;
+
+    background-color: var(--btn-clr);
+
+    font-size: 1.6rem;
+    /* font-weight: 600; */
+    /* font-weight: normal; */
+    color: var(--logo-font-clr);
+
+    align-self: flex-start;
+
+    &:hover {
+        transition: 0.2s ease;
+        background-color: var(--btn-hover-clr);
+    }
+}
+
+.create-login-acc-section p {
+    font-size: calc(var(--info-font-size) * 0.8);
 }

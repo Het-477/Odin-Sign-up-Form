@@ -22,9 +22,14 @@
     --logo-font-clr: whitesmoke;
     --logo-font-family: 'norse-bold';
     --para-font-family: 'roboto';
+    --info-font-size: 1.5rem;
+
     --info-bg-color: oklch(97.511% 0.00011 271.152);
-    --btn-clr: oklch(77.32% 0.05927 139.663);
+    --btn-clr: oklch(70.32% 0.05927 139.663);
+    --btn-hover-clr: oklch(50.32% 0.05927 139.663);
     --btn-clr-2: oklch(63.939% 0.08500 319.746);
+
+    --form-padding: 1.2rem 1.8rem 0.8rem 1.8rem;
 }
 
 .container {
