@@ -20,7 +20,7 @@
     padding: var(--form-padding);
     /* border: 2px solid black; */
     /* border-bottom: 2px solid red; */
-    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);;
 }
 
 form label {
@@ -91,4 +91,19 @@ button {
 
 .create-login-acc-section p {
     font-size: calc(var(--info-font-size) * 0.8);
+}
+
+
+.my-github-link {
+    font-family: var(--para-font-family);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.125rem;
+
+    & svg {
+        height: 1.2rem;
+    }
 }
